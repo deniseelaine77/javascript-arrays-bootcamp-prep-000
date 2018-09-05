@@ -16,7 +16,6 @@ function addElementToEndOfArray(array, element) {
   return[...array, element]
 }
 
-//take 2 parameters, an array and an element, and add to the end of the array.  this one should modify the original array
 function destructivelyAddElementToEndOfArray(array, element) {
   array = [...array, element]
   return array
